@@ -1,0 +1,110 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "How are you",
+                "Is anyone there?",
+                "Good day"
+            ],
+            "responses": [
+                "Hey",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks a lot!"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Anytime!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "booking",
+            "patterns": [
+                "I would like to make a reservation",
+                "Can I book a room?",
+                "I want to make a booking"
+            ],
+            "responses": [
+                "Sure, I only need to know a few details",
+                "Lovely. Let's begin with the reservation"
+            ]
+        },
+        {
+            "tag": "cancellation",
+            "patterns": [
+                "I would like to cancel my booking",
+                "Can I cancel a room?",
+                "I want to make a cancellation",
+                "Cancel a booking"
+            ],
+            "responses": [
+                "Sure, which is your reference number?",
+                "I only need to know the reference number of your booking"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "When do I have to pay?",
+                "Can I pay by card?",
+                "Do you accept cash?",
+                "When is the payment?"
+            ],
+            "responses": [
+                "The payment is on arrival. We accept cash and card",
+                "You can pay on arrival by cash or card"
+            ]
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Where is the hotel located?",
+                "Can you give me the address?",
+                "I want to know the exact location"
+            ],
+            "responses": [
+                "The Hollywood Hotel is located at Vine St, Los Angeles, CA 99999",
+                "You will find us at Vine St, Los Angeles, CA 99999"
+            ]
+        },
+        {
+            "tag": "contacts",
+            "patterns": [
+                "I would like to contact the marketing department",
+                "I want to speak with someone from sales",
+                "Can I have the email of finance?"
+            ],
+            "responses": [
+                "Sure. To contact with them, send an email to:",
+                "Of course. The email to contact with the department is:"
+            ]
+        }
+    ]
+}
